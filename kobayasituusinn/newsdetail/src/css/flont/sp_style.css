@@ -1,0 +1,43 @@
+@media screen and (max-width: 1200px) {}
+
+/* 1024px以下に適用されるCSS（タブレット用） */
+@media screen and (max-width: 896px) {}
+
+
+
+@media screen and (max-width: 1032px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 440px) {
+  .top-newsdetail-container {
+    width: 100%;
+    margin-top: 30px;
+
+    h2 {}
+
+    .top-newsdetail-flexbox-container {
+
+      .top-newsdetail-date {}
+
+      .newsdetail-detail {
+        font-size: 2rem;
+        margin-bottom: 30px;
+
+        .vvvv {}
+      }
+
+      .newsdetail-detail-area {
+        font-size: 1.3rem;
+
+        .newsdetail-detail-img {
+          width: 60vw;
+        }
+      }
+    }
+    .return-area {
+      width: 60vw;
+    }
+  }
+
+}
